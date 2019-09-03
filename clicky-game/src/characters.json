@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "rickandmorty1",
+        "image": "public/assets/image1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "rickandmorty2",
+        "image": "public/assets/image2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "rickandmorty3",
+        "image": "public/assets/image3.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "morty4",
+        "image": "public/assets/image4.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "rick5",
+        "image": "public/assets/image5.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "rick6",
+        "image": "public/assets/image6.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "morty7",
+        "image": "public/assets/image7.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "family8",
+        "image": "public/assets/image8.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "rickandmorty9",
+        "image": "public/assets/image9.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "rickandmorty10",
+        "image": "public/assets/image10.jpeg"
+    }
+]

@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import NavBar from "./components/NavBar";
+import Wrapper from "./components/Wrapper";
+import CharCard from "./components/CharCard";
+import characters from "./characters.json";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+
+
+class App extends Component {
+
+  state = {
+    characters: characters,
+    pickedChars: [],
+    topScore: 0,
+    message: ""
+  }
+
+  handlePicked = event => {
+
+    const name = event.target.attributes.getNamedItem("name").value;
+    this.shuffleCharacters()
+    this.checkGuess(name, this.updateTopScore)
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+};
+
 
 export default App;
